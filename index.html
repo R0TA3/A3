@@ -133,7 +133,8 @@
     .footer-links{list-style:none;display:flex;gap:1.5rem;}
     .footer-links a{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:#555;text-decoration:none;transition:color .2s;}
     .footer-links a:hover{color:var(--red);}
-    .music-player{position:fixed;bottom:2rem;right:2rem;z-index:600;background:white;border:2px solid var(--red);box-shadow:0 8px 30px rgba(232,0,26,.2);padding:1rem 1.2rem;min-width:230px;}
+    /* Music player hidden but present for autoplay */
+    .music-player{display:none;position:fixed;bottom:2rem;right:2rem;z-index:600;background:white;border:2px solid var(--red);box-shadow:0 8px 30px rgba(232,0,26,.2);padding:1rem 1.2rem;min-width:230px;}
     .mp-title{font-family:'Share Tech Mono',monospace;font-size:.6rem;letter-spacing:.15em;color:var(--red);text-transform:uppercase;margin-bottom:.5rem;}
     .mp-track{font-family:'Rajdhani',sans-serif;font-size:.85rem;font-weight:600;color:var(--dark);margin-bottom:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
     .mp-controls{display:flex;align-items:center;gap:.8rem;}
@@ -162,14 +163,14 @@
 <div class="cursor-ring" id="cursorRing"></div>
 
 <nav>
-  <a href="#" class="nav-logo">ACHU S</a>
+  <a href="#" class="nav-logo">ACHU</a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="mailto:achua3@gmail.com" class="nav-cta">Hire Me</a>
+  <a href="mailto:www.achua3@gmail.com" class="nav-cta">Hire Me</a>
 </nav>
 
 <!-- HERO — Unicorn Studio #1 -->
@@ -181,13 +182,13 @@
   <div class="hero-content">
     <div style="flex-shrink:0;position:relative;">
       <div class="photo-frame">
-        <img src="a3.jpg" alt="Achu S" class="photo-img"/>
+        <img src="a3.jpg" alt="Achu" class="photo-img"/>
       </div>
       <div class="photo-badge">Cybersecurity Analyst</div>
     </div>
     <div class="hero-text">
       <div class="hero-tag">root@r0ta3 — Available for hire</div>
-      <h1 class="hero-name"><span class="red">ACHU</span><br><span class="blue">S</span></h1>
+      <h1 class="hero-name"><span class="red">ACHU</span></h1>
       <div class="hero-role">Cybersecurity Analyst<span class="sep">/</span>SOC Analyst<span class="sep">/</span>Ethical Hacker</div>
       <p class="hero-bio">Motivated security professional building AI-based IDS, network monitoring agents &amp; bug bounty toolkits. Proficient in pentesting, threat detection &amp; Linux administration.</p>
       <div class="hero-stats">
@@ -223,11 +224,11 @@
     <div class="sec-line"></div>
     <div class="about-grid">
       <div class="about-text">
-        <p>I'm <strong>Achu S</strong>, a Cybersecurity Analyst from <strong>Pallassena, Palakkad, Kerala, India</strong>. I hold a BCA (CGPA 8.26) from Sree Narayanaguru College, Coimbatore under Bharathiar University.</p>
+        <p>I'm <strong>Achu</strong>, a Cybersecurity Analyst from <strong>Pallassena, Palakkad, Kerala, India</strong>. I hold a BCA (CGPA 8.26) from Sree Narayanaguru College, Coimbatore under Bharathiar University.</p>
         <p>I specialize in <strong>vulnerability assessment, penetration testing, network traffic analysis</strong>, and Linux system administration. Actively pursuing CEH and Diploma in Cyber Defense.</p>
         <ul class="info-list">
-          <li><span class="lbl">LOCATION</span><span>Pallassena, Palakkad, Kerala</span></li>
-          <li><span class="lbl">EMAIL</span><span>achua3@gmail.com</span></li>
+          <li><span class="lbl">LOCATION</span><span>Palakkad, Kerala</span></li>
+          <li><span class="lbl">EMAIL</span><span>www.achua3@gmail.com</span></li>
           <li><span class="lbl">PHONE</span><span>+91 8590784253</span></li>
           <li><span class="lbl">DEGREE</span><span>BCA — Bharathiar University</span></li>
           <li><span class="lbl">LANGUAGES</span><span>Malayalam • English • Tamil</span></li>
@@ -311,7 +312,7 @@
     <div>
       <h3 style="font-family:'Cinzel',serif;font-size:1rem;margin-bottom:1.5rem;">Connect With Me</h3>
       <ul class="clink-list">
-        <li><a href="mailto:achua3@gmail.com"><span class="clink-lbl">EMAIL</span>achua3@gmail.com</a></li>
+        <li><a href="mailto:www.achua3@gmail.com"><span class="clink-lbl">EMAIL</span>www.achua3@gmail.com</a></li>
         <li><a href="tel:+918590784253"><span class="clink-lbl">PHONE</span>+91 8590784253</a></li>
         <li><a href="https://github.com/R0TA3" target="_blank"><span class="clink-lbl">GITHUB</span>github.com/R0TA3</a></li>
         <li><a href="https://linkedin.com/in/achu-s-198926377" target="_blank"><span class="clink-lbl">LINKEDIN</span>achu-s-198926377</a></li>
@@ -330,8 +331,8 @@
 </section>
 
 <footer>
-  <a href="#" class="footer-logo">ACHU S</a>
-  <span class="footer-copy">© 2025 Achu S — Cybersecurity Analyst | Pallassena, Kerala, India</span>
+  <a href="#" class="footer-logo">ACHU</a>
+  <span class="footer-copy">© 2025 Achu — Cybersecurity Analyst |  Kerala, India</span>
   <ul class="footer-links">
     <li><a href="https://github.com/R0TA3" target="_blank">GitHub</a></li>
     <li><a href="https://linkedin.com/in/achu-s-198926377" target="_blank">LinkedIn</a></li>
@@ -339,7 +340,7 @@
   </ul>
 </footer>
 
-<!-- CINEMATIC MUSIC PLAYER -->
+<!-- CINEMATIC MUSIC PLAYER (hidden, autoplays) -->
 <div class="music-player">
   <div class="mp-title">🎬 Cinematic Mode</div>
   <div class="mp-track" id="mpTrack">Hans Zimmer — Time</div>
@@ -372,7 +373,7 @@ document.querySelectorAll('.proj-card,.skill-group,.cert-card').forEach((el,i)=>
   }});},{threshold:.1}).observe(el);
 });
 
-// Music Player — free royalty-free cinematic tracks from SoundHelix
+// Music Player — autoplay on first user interaction (browser policy workaround)
 const tracks=[
   {title:'Dramatic Cinematic Score',url:'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'},
   {title:'Epic Orchestral Theme',url:'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3'},
@@ -391,10 +392,29 @@ document.getElementById('mpNext').onclick=()=>{cur=(cur+1)%tracks.length;load(cu
 document.getElementById('mpPrev').onclick=()=>{cur=(cur-1+tracks.length)%tracks.length;load(cur);if(playing)audio.play();};
 audio.addEventListener('timeupdate',()=>{if(audio.duration)mpB.style.width=(audio.currentTime/audio.duration*100)+'%';});
 audio.addEventListener('ended',()=>{cur=(cur+1)%tracks.length;load(cur);audio.play();});
-load(0); audio.volume=0.4;
+load(0);
+audio.volume=0.4;
+
+// Autoplay on first user interaction (bypasses browser autoplay policy)
+function startAutoplay(){
+  audio.play().then(()=>{playing=true;mpP.textContent='⏸';}).catch(()=>{});
+  document.removeEventListener('click',startAutoplay);
+  document.removeEventListener('keydown',startAutoplay);
+  document.removeEventListener('scroll',startAutoplay);
+  document.removeEventListener('mousemove',startAutoplay);
+}
+// Try immediate autoplay first
+audio.play().then(()=>{playing=true;mpP.textContent='⏸';}).catch(()=>{
+  // Fallback: wait for any user interaction
+  document.addEventListener('click',startAutoplay,{once:true});
+  document.addEventListener('keydown',startAutoplay,{once:true});
+  document.addEventListener('scroll',startAutoplay,{once:true});
+  document.addEventListener('mousemove',startAutoplay,{once:true});
+});
 
 // Unicorn Studio SDK
 !function(){var u=window.UnicornStudio;if(u&&u.init){document.readyState==="loading"?document.addEventListener("DOMContentLoaded",()=>u.init()):u.init();}else{window.UnicornStudio={isInitialized:false};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.1.3/dist/unicornStudio.umd.js";i.onload=function(){document.readyState==="loading"?document.addEventListener("DOMContentLoaded",()=>UnicornStudio.init()):UnicornStudio.init();};(document.head||document.body).appendChild(i);}}();
 </script>
 </body>
 </html>
+
